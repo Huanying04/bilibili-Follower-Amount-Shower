@@ -39,6 +39,7 @@ public class Main {
 		Dimension sc = kit.getScreenSize();
 		JFrame mainFrame = new JFrame();
 		mainFrame.setSize(290,185);
+		mainFrame.setUndecorated(true);
 		mainFrame.setType(Type.UTILITY);
 		mainFrame.setTitle("bilibili粉絲數顯示器");
 		mainFrame.setLocation(39*sc.width/45-290,1*sc.height/9);
@@ -79,7 +80,6 @@ public class Main {
 		    	}
 		    }
 		});
-		
 		
 		JButton exitButton = new JButton(Image.getExitButtonImage());
 		exitButton.setContentAreaFilled(false);
