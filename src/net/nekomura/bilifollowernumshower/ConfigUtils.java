@@ -33,7 +33,7 @@ public class ConfigUtils {
 	
 	public static void set() throws IOException{
 	    JLabel uidLabel = new JLabel("UID:", SwingConstants.RIGHT);
-	    JLabel refreshFreqLabel = new JLabel("更新頻率(次/毫秒):", SwingConstants.RIGHT);
+	    JLabel refreshFreqLabel = new JLabel("更新頻率(毫秒/次):", SwingConstants.RIGHT);
 	    
 	    JTextField uidField = new JTextField(uid, 35);
 	    JTextField refreshFreqField = new JTextField(String.valueOf(refreshFreq), 35);
